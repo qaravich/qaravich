@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "7d535f2c-bb3a-4899-80f7-319fb784ec7b",
+		"name": "Capstone",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15021071"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/translation/{{translation}}",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"translation",
+						"{{translation}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
